@@ -1,0 +1,922 @@
+[00:05:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5392ms or 107 ticks behind
+[00:10:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7964ms or 159 ticks behind
+[00:11:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7661ms or 153 ticks behind
+[00:21:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8428ms or 168 ticks behind
+[00:30:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6820ms or 136 ticks behind
+[00:41:12] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[00:41:12] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[00:41:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:12] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:41:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:12] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:41:12] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[00:41:12] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.f(ChunkMap.java:1663)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.helper.v118.MapChunkCache118.loadChunk(MapChunkCache118.java:76)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.readChunks(GenericMapChunkCache.java:738)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.loadChunks(GenericMapChunkCache.java:701)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:529)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:516)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftFuture.run(CraftFuture.java:88)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1574)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[00:41:12] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[00:41:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:12] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:41:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:17] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[00:41:17] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[00:41:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:17] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:41:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:17] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:41:17] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[00:41:17] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.f(ChunkMap.java:1663)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.helper.v118.MapChunkCache118.loadChunk(MapChunkCache118.java:76)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.readChunks(GenericMapChunkCache.java:738)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.loadChunks(GenericMapChunkCache.java:701)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:529)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:516)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftFuture.run(CraftFuture.java:88)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1574)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[00:41:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[00:41:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:17] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:41:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:22] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[00:41:22] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[00:41:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:22] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[00:41:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:22] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:41:22] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[00:41:22] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.f(ChunkMap.java:1663)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.helper.v118.MapChunkCache118.loadChunk(MapChunkCache118.java:76)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.readChunks(GenericMapChunkCache.java:738)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.loadChunks(GenericMapChunkCache.java:701)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:529)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:516)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftFuture.run(CraftFuture.java:88)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1574)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[00:41:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[00:41:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:22] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[00:41:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:41:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20885ms or 417 ticks behind
+[01:06:23] [User Authenticator #15/INFO]: UUID of player harvey298 is c59ece5e-0b76-43b8-bac4-24ea927d9232
+[01:06:24] [Server thread/INFO]: [Foundation] harvey298 joined the game
+[01:06:24] [Server thread/INFO]: harvey298[/90.246.196.12:55210] logged in with entity id 33486 at ([world]-1765.699999988079, 78.0, -231.51191355281364)
+[01:06:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[01:06:56] [User Authenticator #15/INFO]: UUID of player m1necraftb0ss is 4ae313c3-9e1c-48d8-8abd-f2f3b144c810
+[01:06:57] [Server thread/INFO]: [Foundation] m1necraftb0ss joined the game
+[01:06:57] [Server thread/INFO]: m1necraftb0ss[/86.2.19.66:59982] logged in with entity id 33871 at ([world]-1731.34912138489, 68.0, -237.40794066508704)
+[01:09:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.3329223206039842,0.0,20.356274236731565
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.359058052380533,0.0,20.75541686882434
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.3851937841570816,0.0,21.154559500917117
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.4113295159336303,0.0,21.553702133009892
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.437465247710179,0.0,21.952844765102668
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.4636009794867277,0.0,22.351987397195444
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.4897367112632764,0.0,22.75113002928822
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.5158724430398252,0.0,23.150272661380995
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.5420081748163739,0.0,23.54941529347377
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.5681439065929226,0.0,23.948557925566547
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.5942796383694713,0.0,24.347700557659323
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.62041537014602,0.0,24.7468431897521
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.6465511019225687,0.0,25.145985821844874
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.6726868336991174,0.0,25.54512845393765
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.6988225654756661,0.0,25.944271086030426
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.7249582972522148,0.0,26.3434137181232
+[01:10:01] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 1.7510940290287635,0.0,26.742556350215978
+[01:10:07] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 0.33710247827070816,0.0,20.28271183191896
+[01:10:07] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 0.2654913793282958,0.0,20.673710015458937
+[01:10:07] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 0.19356904451933588,0.0,21.06490422350703
+[01:10:07] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 0.12167952834215612,0.0,21.456333068719346
+[01:10:07] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 0.05009893033843582,0.0,21.848022890779816
+[01:10:07] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.020954170266804795,0.0,22.23999033597829
+[01:10:07] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.09130550124132242,0.0,22.632245133315905
+[01:10:07] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.16082073789107199,0.0,23.024791169939135
+[01:10:07] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.22939777975625475,0.0,23.417628006647647
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.2969673670984321,0.0,23.810751019956797
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.36347845378395505,0.0,24.20415373532535
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.4289040036765073,0.0,24.59782708093826
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.49323101984691675,0.0,24.99176088050558
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.5564591564841521,0.0,25.385944075468615
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.6186032684809106,0.0,25.78036439599407
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.6796804980278921,0.0,26.175010076526064
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.7397176589806804,0.0,26.569868866585125
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.7987502776088604,0.0,26.964928142590338
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.8568141185028253,0.0,27.360175950998155
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.9139451635355726,0.0,27.755600959925005
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -0.9701872055591139,0.0,28.15119149173563
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -1.025579650688769,0.0,28.546936976953816
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -1.0801655728669175,0.0,28.942826934475875
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -1.133987542162231,0.0,29.338851435845186
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -1.1870876760883675,0.0,29.73500106116319
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -1.2395076862560472,0.0,30.131266859409493
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -1.2912889194292347,0.0,30.527640312730114
+[01:10:08] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -1.3424685862976276,0.0,30.92411373643006
+[01:10:15] [Server thread/WARN]: Boat (vehicle of m1necraftb0ss) moved wrongly! 1.2985761559619478
+[01:20:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7352ms or 147 ticks behind
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.032333070211507,0.0,-20.2969976086149
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.0715649762987596,0.0,-20.695068194357646
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.1107943763418007,0.0,-21.09313909873174
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.1500215209450744,0.0,-21.49121028987406
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.1892466356528075,0.0,-21.889281739107673
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.2284699234544405,0.0,-22.287353420623504
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.267691567040629,0.0,-22.685425311193285
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.306911730833008,0.0,-23.083497389911713
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.346130562810913,0.0,-23.481569637963844
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.3853481961559737,0.0,-23.879642038416364
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.424564750731406,0.0,-24.277714576029098
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.4637803344141957,0.0,-24.675787237086183
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.502995044293584,0.0,-25.07386000924305
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.542208967749957,0.0,-25.471932881389762
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.5814221834257296,0.0,-25.870005843527338
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.6206347620989163,0.0,-26.26807888665678
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.659846767469844,0.0,-26.666152002678814
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.6990582568687387,0.0,-27.064225184304178
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.738269281892599,0.0,-27.46229842497246
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.7774798889790873,0.0,-27.860371718779447
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.8166901199219865,0.0,-28.258445060411304
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.851979326835817,0.0,-28.616711058389114
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.883739612216914,0.0,-28.939150448027476
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.912323868302792,0.0,-29.229345891014418
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.938049698098439,0.0,-29.490521782783844
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.961202944301249,0.0,-29.725580079149495
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.9820408653317827,0.0,-29.93713254027432
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.00471567926229,0.0,-30.16733713693918
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.0290436967591177,0.0,-30.41432865514537
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.0548595974260024,0.0,-30.676428402338615
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.082014592910582,0.0,-30.95212555525984
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.1103747736992773,0.0,-31.24006037301217
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.1398196212328457,0.0,-31.539009088820762
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.1702406688109477,0.0,-31.84787031261726
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.2015402964059376,0.0,-32.16565279336669
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.2336306459949355,0.0,-32.49146440516097
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.266432645359828,0.0,-32.824502234704255
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.299875129506063,0.0,-33.16404366004929
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.333894049940227,0.0,-33.509438321460834
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.3684317630199985,0.0,-33.86010089519266
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.4034363894681974,0.0,-34.215504589887246
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.4388612379368624,0.0,-34.57517529333518
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.474664286213965,0.0,-34.938686304559496
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.510807714309749,0.0,-35.305653592690874
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.5472574842340237,0.0,-35.67573152995635
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.5839829617968917,0.0,-36.0486090513682
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.620956576227627,0.0,-36.42400619844511
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.6581535138336676,0.0,-36.80167100856056
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.695551442292299,0.0,-37.18137671535658
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.733130262513214,0.0,-37.56291922911646
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.7708718853159553,0.0,-37.94611486910003
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.808760030438634,0.0,-38.33079832264548
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.8467800456455734,0.0,-38.71682080836115
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.8849187439252546,0.0,-39.10404842299806
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.9231642569675387,0.0,-39.49236065363539
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.961505903293755,0.0,-39.8816490386472
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -3.9999340695731007,0.0,-40.27181596257287
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.0384401038081705,0.0,-40.6627735715
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.077016219201596,0.0,-41.0544427969096
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.115655407635813,0.0,-41.44675247713644
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.154351361805311,0.0,-41.83963856668356
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.193098405135288,0.0,-42.23304342460517
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.231891428708195,0.0,-42.62691517405142
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.27072583449899,0.0,-43.02120712585872
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.309597484284723,0.0,-43.41587725978104
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.348502653665037,0.0,-43.81088775759781
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.387437990679473,0.0,-44.20620458291148
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.426400478564119,0.0,-44.60179710296495
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.465387402231272,0.0,-44.99763774827784
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.504396318102181,0.0,-45.39370170631821
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -4.543425026955902,0.0,-45.78996664580791
+[01:20:12] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -2.589373169862938,0.0,-26.287485091690314
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:20:13] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 2.667512708651884,0.0,27.080848842664864
+[01:22:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5903ms or 118 ticks behind
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -5.677451712095035,0.0,-19.187505881877826
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -5.828833989079612,0.0,-19.417171503565726
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -5.988226226849292,0.0,-19.656492041858996
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -6.154843062315194,0.0,-19.904490903501852
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -6.327974541335152,0.0,-20.16029137113503
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -6.5069816996099235,0.0,-20.42310439170558
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -6.691289467423076,0.0,-20.692219813759323
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -6.880377152799383,0.0,-20.967000725002748
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -7.07377613483618,0.0,-21.246873896936336
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -7.271061527351321,0.0,-21.531325651647734
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -7.471854056446773,0.0,-21.81989144757921
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -7.675809250104749,0.0,-22.112155425063463
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -7.882617083517516,0.0,-22.407743310409842
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -8.091998534365302,0.0,-22.706318253580406
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -8.303699358911445,0.0,-23.007579317272643
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -8.517490741523943,0.0,-23.311255661646726
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -8.733169866207618,0.0,-23.617101295679134
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -8.95055107677831,0.0,-23.92489705890341
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -9.169467284537404,0.0,-24.23444571063027
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -9.389768109660054,0.0,-24.545569730518764
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -9.611318208445027,0.0,-24.858109350266318
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -9.833992653496125,0.0,-25.17192300985323
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -10.057682128227952,0.0,-25.486881070091044
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -10.282288247716224,0.0,-25.802866859438495
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -10.507719347463308,0.0,-26.119777604960092
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -10.733896045629308,0.0,-26.437518579567495
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -10.960743782354257,0.0,-26.756006760332326
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -11.188195453766411,0.0,-27.07516742662102
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -11.416193786313215,0.0,-27.394931094691003
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -11.644684113868152,0.0,-27.71523746434974
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -11.87361723691879,0.0,-28.036032265425433
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -12.102951993972738,0.0,-28.357264423315854
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -12.332648221620275,0.0,-28.678890202329086
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -12.56266977279347,0.0,-29.000870240343488
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -12.792984115131958,0.0,-29.323169111450483
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -13.02356196951223,0.0,-29.645754932333205
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -13.254380100928984,0.0,-29.96859677655837
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -13.48541448167316,0.0,-30.29166904178561
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -13.71664348680656,0.0,-30.61494868590924
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -13.948047653885851,0.0,-30.93841497103466
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -14.179609466712236,0.0,-31.26204923305724
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -14.411313160707095,0.0,-31.585834674283262
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -14.643144547750353,0.0,-31.90975617678879
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -14.875090858533895,0.0,-32.23380013444262
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -15.107140600681305,0.0,-32.55795430172702
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -15.339283431053445,0.0,-32.882207657676275
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -15.571513158893595,0.0,-33.206548048247384
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -15.803821094453042,0.0,-33.53096676997606
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -16.03619941695797,0.0,-33.85545598974471
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -16.268641087712012,0.0,-34.180008657747635
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -16.50113977188903,0.0,-34.504618429159905
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -16.73368976814504,0.0,-34.8292795936392
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -16.96628594527124,0.0,-35.153987011877604
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -17.198923685179352,0.0,-35.47873605849813
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -17.43159883159001,0.0,-35.80352257066153
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -17.664307643852226,0.0,-36.128342801812664
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -12.362098219023437,0.0,-17.484610645057813
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! 15.622370698658187,0.0,22.034446696826592
+[01:22:10] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -15.622370698658187,0.0,-22.034446696826592
+[01:22:11] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -15.157122079042892,0.0,-21.383838199723698
+[01:22:11] [Server thread/WARN]: Boat (vehicle of harvey298) moved too quickly! -15.38963755987129,0.0,-21.709252085746897
+[01:30:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5061ms or 101 ticks behind
+[01:49:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6972ms or 139 ticks behind
+[01:51:32] [Async Chat Thread - #8/INFO]: <harvey298> got 3k ping
+[01:52:49] [Server thread/WARN]: m1necraftb0ss moved too quickly! 3.648851802518948,-3.0,8.879762971483672
+[01:55:40] [Server thread/INFO]: m1necraftb0ss lost connection: Disconnected
+[01:55:41] [Server thread/INFO]: m1necraftb0ss left the game
+[01:56:53] [Server thread/INFO]: harvey298 lost connection: Disconnected
+[01:56:53] [Server thread/INFO]: harvey298 left the game
+[02:10:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8035ms or 160 ticks behind
+[02:52:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6103ms or 122 ticks behind
+[05:27:56] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[05:27:56] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[05:27:56] [Paper Watchdog Thread/ERROR]: ------------------------------
+[05:27:56] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[05:27:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10429ms or 208 ticks behind
+[05:27:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[05:27:58] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[05:27:58] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: TIMED_WAITING
+[05:27:58] [Paper Watchdog Thread/ERROR]: 	Stack:
+[05:27:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[05:27:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[05:27:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:144)
+[05:27:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133)
+[05:27:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1389)
+[05:27:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1295)
+[05:27:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[05:27:58] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[05:27:58] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[05:27:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[05:27:58] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[05:27:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[08:39:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6087ms or 121 ticks behind
+[10:01:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6547ms or 130 ticks behind
+[10:43:08] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[10:43:08] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[10:43:08] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:43:08] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[10:43:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11172ms or 223 ticks behind
+[10:43:09] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:43:09] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[10:43:09] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: TIMED_WAITING
+[10:43:09] [Paper Watchdog Thread/ERROR]: 	Stack:
+[10:43:09] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[10:43:09] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[10:43:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:144)
+[10:43:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133)
+[10:43:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1389)
+[10:43:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1295)
+[10:43:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[10:43:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[10:43:09] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[10:43:09] [Paper Watchdog Thread/ERROR]: ------------------------------
+[10:43:09] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[10:43:09] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:46:14] [User Authenticator #16/INFO]: UUID of player m1necraftb0ss is 4ae313c3-9e1c-48d8-8abd-f2f3b144c810
+[15:46:15] [Server thread/INFO]: [Foundation] m1necraftb0ss joined the game
+[15:46:15] [Server thread/INFO]: m1necraftb0ss[/86.2.19.66:49476] logged in with entity id 47539 at ([world]-1776.5, 54.5, -340.5)
+[15:53:01] [Server thread/INFO]: [Foundation] m1necraftb0ss was slain by Enderman
+[15:54:34] [User Authenticator #17/INFO]: UUID of player misterteenee is 68e277a6-1a35-4a9f-bf5c-35b0babd5f4a
+[15:54:34] [Server thread/INFO]: misterteenee joined the game
+[15:54:35] [Server thread/INFO]: misterteenee[/82.44.227.87:55591] logged in with entity id 50490 at ([world]-1763.7762132058194, 71.0, -307.6813740316472)
+[15:55:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9778ms or 195 ticks behind
+[15:58:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5075ms or 101 ticks behind
+[15:59:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5054ms or 101 ticks behind
+[16:00:00] [Server thread/WARN]: m1necraftb0ss moved too quickly! 1.7276646260472717,-6.0,-14.255349958187196
+[16:00:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7184ms or 143 ticks behind
+[16:00:38] [User Authenticator #18/INFO]: UUID of player AR1THM3T1C is 3eef9511-bee5-4ce1-9f0e-3c7665e562d7
+[16:00:38] [Server thread/INFO]: [Foundation] AR1THM3T1C joined the game
+[16:00:38] [Server thread/INFO]: AR1THM3T1C[/86.150.75.184:53154] logged in with entity id 51617 at ([world]-1767.472487213315, 64.0, -246.53405847270756)
+[16:04:33] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[16:04:33] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[16:04:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:04:33] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[16:04:36] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:04:36] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:04:36] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: RUNNABLE
+[16:04:36] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.parseChunkFromNBT(GenericMapChunkCache.java:1048)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.helper.v118.MapChunkCache118.loadChunk(MapChunkCache118.java:80)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.readChunks(GenericMapChunkCache.java:738)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.loadChunks(GenericMapChunkCache.java:701)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:529)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:516)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftFuture.run(CraftFuture.java:88)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1574)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[16:04:36] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[16:04:36] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:04:36] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:04:36] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:04:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13925ms or 278 ticks behind
+[16:08:42] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[16:08:42] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[16:08:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:08:42] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[16:08:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:08:42] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:08:42] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[16:08:42] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.f(ChunkMap.java:1663)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.helper.v118.MapChunkCache118.loadChunk(MapChunkCache118.java:76)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.readChunks(GenericMapChunkCache.java:738)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.loadChunks(GenericMapChunkCache.java:701)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:529)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:516)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftFuture.run(CraftFuture.java:88)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1574)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[16:08:42] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[16:08:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:08:42] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:08:42] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:08:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13922ms or 278 ticks behind
+[16:10:22] [Server thread/WARN]: AR1THM3T1C moved wrongly!, (0.09699388873511691)
+[16:13:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9543ms or 190 ticks behind
+[16:13:30] [Server thread/WARN]: m1necraftb0ss moved too quickly! 9.498995712569013,-2.0554624345250403,-5.612426226600974
+[16:20:32] [Server thread/INFO]: m1necraftb0ss lost connection: Disconnected
+[16:20:33] [Server thread/INFO]: m1necraftb0ss left the game
+[16:20:42] [User Authenticator #19/INFO]: UUID of player m1necraftb0ss is 4ae313c3-9e1c-48d8-8abd-f2f3b144c810
+[16:20:43] [Server thread/INFO]: [Foundation] m1necraftb0ss joined the game
+[16:20:43] [Server thread/INFO]: m1necraftb0ss[/86.2.19.66:53635] logged in with entity id 55944 at ([world]-1724.6726443295868, 45.0, -201.7721410698608)
+[16:25:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5906ms or 118 ticks behind
+[16:38:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5628ms or 112 ticks behind
+[16:38:01] [Server thread/WARN]: AR1THM3T1C moved too quickly! 3.789161498917565,-1.227688487544981,-15.946725118065217
+[16:46:26] [User Authenticator #20/INFO]: UUID of player harvey298 is c59ece5e-0b76-43b8-bac4-24ea927d9232
+[16:46:27] [Server thread/INFO]: [Foundation] harvey298 joined the game
+[16:46:27] [Server thread/INFO]: harvey298[/90.246.196.12:55218] logged in with entity id 60521 at ([world]-1809.2413207142417, 65.0, -304.71741564752415)
+[16:54:17] [Server thread/WARN]: AR1THM3T1C moved wrongly!, (0.09036207602003682)
+[16:55:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[16:56:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8627ms or 172 ticks behind
+[16:57:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[16:57:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7594ms or 151 ticks behind
+[16:58:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5033ms or 100 ticks behind
+[16:59:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5094ms or 101 ticks behind
+[17:00:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[17:00:37] [Server thread/WARN]: harvey298 moved too quickly! -10.695221972842319,-0.3184416019416858,-4.663087744685129
+[17:00:37] [Server thread/WARN]: m1necraftb0ss moved too quickly! 5.567898492073937,1.3680968600179995,11.440484133208543
+[17:00:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5040ms or 100 ticks behind
+[17:05:31] [User Authenticator #21/INFO]: UUID of player 8_Bit_Detron is 0e732ab4-5071-4feb-99cf-7976982ca5c5
+[17:05:32] [Server thread/INFO]: [Foundation] 8_Bit_Detron joined the game
+[17:05:33] [Server thread/INFO]: 8_Bit_Detron[/94.5.221.128:65174] logged in with entity id 67627 at ([world]-2039.699999988079, 67.0, -39.67633742643773)
+[17:05:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[17:06:35] [Server thread/INFO]: 8_Bit_Detron lost connection: Disconnected
+[17:06:35] [Server thread/INFO]: 8_Bit_Detron left the game
+[17:06:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5206ms or 104 ticks behind
+[17:07:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5582ms or 111 ticks behind
+[17:08:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6922ms or 138 ticks behind
+[17:08:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8227ms or 164 ticks behind
+[17:09:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5022ms or 100 ticks behind
+[17:10:04] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[17:10:04] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[17:10:04] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:04] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:10:04] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:04] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:10:04] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[17:10:04] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.f(ChunkMap.java:1663)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.helper.v118.MapChunkCache118.loadChunk(MapChunkCache118.java:76)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.readChunks(GenericMapChunkCache.java:738)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.loadChunks(GenericMapChunkCache.java:701)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:529)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:516)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftFuture.run(CraftFuture.java:88)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1574)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[17:10:04] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[17:10:04] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:04] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:10:04] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:04] [Server thread/INFO]: m1necraftb0ss lost connection: Disconnected
+[17:10:07] [User Authenticator #22/INFO]: UUID of player m1necraftb0ss is 4ae313c3-9e1c-48d8-8abd-f2f3b144c810
+[17:10:09] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[17:10:09] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[17:10:09] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:09] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:10:09] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:09] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:10:09] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: true | State: RUNNABLE
+[17:10:09] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:10:10] [Server thread/INFO]: m1necraftb0ss left the game
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.io.FileOutputStream.writeBytes(Native Method)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.io.FileOutputStream.write(FileOutputStream.java:349)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:234)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:304)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:132)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:142)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.io.OutputStreamWriter.write(OutputStreamWriter.java:223)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		com.google.gson.stream.JsonWriter.string(JsonWriter.java:590)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		com.google.gson.stream.JsonWriter.writeDeferredName(JsonWriter.java:401)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		com.google.gson.stream.JsonWriter.value(JsonWriter.java:416)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:749)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:763)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:763)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:763)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		com.google.gson.internal.bind.TypeAdapters$29.write(TypeAdapters.java:701)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		com.google.gson.internal.Streams.write(Streams.java:72)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.toJson(Gson.java:784)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		com.google.gson.Gson.toJson(Gson.java:742)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.PlayerAdvancements.save(PlayerAdvancements.java:249)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.save(PlayerList.java:589)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:637)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.remove(PlayerList.java:596)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2073)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2053)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:723)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:221)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1664)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[17:10:10] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[17:10:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:10] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:10:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:10:10] [Server thread/INFO]: [Foundation] m1necraftb0ss joined the game
+[17:10:10] [Server thread/INFO]: m1necraftb0ss[/86.2.19.66:65469] logged in with entity id 69700 at ([world]-1793.642060883676, 64.0, -327.66101458535655)
+[17:10:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17964ms or 359 ticks behind
+[17:11:12] [User Authenticator #23/INFO]: UUID of player 8_Bit_Detron is 0e732ab4-5071-4feb-99cf-7976982ca5c5
+[17:11:13] [Server thread/INFO]: [Foundation] 8_Bit_Detron joined the game
+[17:11:13] [Server thread/INFO]: 8_Bit_Detron[/94.5.221.128:65217] logged in with entity id 70015 at ([world]-2008.8435082060903, 94.0, -42.59064748361502)
+[17:11:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5083ms or 101 ticks behind
+[17:11:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5761ms or 115 ticks behind
+[17:12:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5023ms or 100 ticks behind
+[17:13:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[17:13:20] [Server thread/INFO]: [Foundation] m1necraftb0ss has made the advancement [Surge Protector]
+[17:13:27] [Server thread/INFO]: [Foundation] harvey298 has made the advancement [Surge Protector]
+[17:13:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13627ms or 272 ticks behind
+[17:14:11] [Server thread/INFO]: [Foundation] AR1THM3T1C has made the advancement [Surge Protector]
+[17:14:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12869ms or 257 ticks behind
+[17:15:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5089ms or 101 ticks behind
+[17:15:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5107ms or 102 ticks behind
+[17:16:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5868ms or 117 ticks behind
+[17:17:19] [Async Chat Thread - #9/INFO]: <8_Bit_Detron> -2003
+[17:17:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5149ms or 102 ticks behind
+[17:17:29] [Async Chat Thread - #9/INFO]: <8_Bit_Detron> -61
+[17:18:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5484ms or 109 ticks behind
+[17:18:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5308ms or 106 ticks behind
+[17:19:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5038ms or 100 ticks behind
+[17:20:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6540ms or 130 ticks behind
+[17:20:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5041ms or 100 ticks behind
+[17:20:58] [Server thread/WARN]: AR1THM3T1C moved too quickly! 8.213371618141537,5.166109260938214,2.887319513272814
+[17:21:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6324ms or 126 ticks behind
+[17:22:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5042ms or 100 ticks behind
+[17:22:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5149ms or 102 ticks behind
+[17:23:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7098ms or 141 ticks behind
+[17:24:04] [Async Chat Thread - #10/INFO]: <m1necraftb0ss> GO " SLEEEEEp
+[17:24:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14617ms or 292 ticks behind
+[17:24:23] [Server thread/INFO]: 8_Bit_Detron lost connection: Disconnected
+[17:24:23] [Server thread/INFO]: 8_Bit_Detron left the game
+[17:24:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[17:25:06] [User Authenticator #24/INFO]: UUID of player 8_Bit_Detron is 0e732ab4-5071-4feb-99cf-7976982ca5c5
+[17:25:06] [Server thread/INFO]: [Foundation] 8_Bit_Detron joined the game
+[17:25:07] [Server thread/INFO]: 8_Bit_Detron[/94.5.221.128:56959] logged in with entity id 76940 at ([world]-2000.6990908728894, 92.0, -57.160285220023944)
+[17:25:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5041ms or 100 ticks behind
+[17:26:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5166ms or 103 ticks behind
+[17:26:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7794ms or 155 ticks behind
+[17:26:57] [Server thread/INFO]: misterteenee lost connection: Disconnected
+[17:26:57] [Server thread/INFO]: misterteenee left the game
+[17:27:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5043ms or 100 ticks behind
+[17:27:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7125ms or 142 ticks behind
+[17:28:02] [User Authenticator #25/INFO]: UUID of player 8_Bit_Detron is 0e732ab4-5071-4feb-99cf-7976982ca5c5
+[17:28:02] [Server thread/INFO]: 8_Bit_Detron lost connection: You logged in from another location
+[17:28:02] [Server thread/INFO]: 8_Bit_Detron left the game
+[17:28:02] [Server thread/INFO]: [Foundation] 8_Bit_Detron joined the game
+[17:28:02] [Server thread/INFO]: 8_Bit_Detron[/94.5.221.128:56986] logged in with entity id 78678 at ([world]-2016.3283278641861, 91.0, -58.30000001192093)
+[17:28:06] [Server thread/INFO]: [Foundation] m1necraftb0ss has made the advancement [Isn't It Iron Pick]
+[17:28:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[17:29:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5519ms or 110 ticks behind
+[17:29:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8441ms or 168 ticks behind
+[17:30:25] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[17:30:25] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[17:30:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:25] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:30:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:25] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:30:25] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[17:30:25] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.f(ChunkMap.java:1663)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.helper.v118.MapChunkCache118.loadChunk(MapChunkCache118.java:76)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.readChunks(GenericMapChunkCache.java:738)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.loadChunks(GenericMapChunkCache.java:701)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:529)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:516)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftFuture.run(CraftFuture.java:88)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1574)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[17:30:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[17:30:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:25] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:30:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:30] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[17:30:30] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[17:30:30] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:30] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:30:30] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:30] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:30:30] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[17:30:30] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.f(ChunkMap.java:1663)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.helper.v118.MapChunkCache118.loadChunk(MapChunkCache118.java:76)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.readChunks(GenericMapChunkCache.java:738)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.loadChunks(GenericMapChunkCache.java:701)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:529)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:516)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftFuture.run(CraftFuture.java:88)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1574)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[17:30:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[17:30:30] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:30] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:30:30] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:35] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[17:30:35] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[17:30:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:35] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:30:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:35] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:30:35] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[17:30:35] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.f(ChunkMap.java:1663)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.helper.v118.MapChunkCache118.loadChunk(MapChunkCache118.java:76)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.readChunks(GenericMapChunkCache.java:738)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.loadChunks(GenericMapChunkCache.java:701)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:529)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:516)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftFuture.run(CraftFuture.java:88)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1574)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[17:30:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[17:30:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:35] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:30:35] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:40] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[17:30:40] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[17:30:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:40] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:30:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:40] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:30:40] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[17:30:40] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.f(ChunkMap.java:1663)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.helper.v118.MapChunkCache118.loadChunk(MapChunkCache118.java:76)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.readChunks(GenericMapChunkCache.java:738)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.loadChunks(GenericMapChunkCache.java:701)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:529)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:516)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftFuture.run(CraftFuture.java:88)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1574)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[17:30:40] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[17:30:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:40] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:30:40] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:30:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30697ms or 613 ticks behind
+[17:31:18] [Server thread/INFO]: m1necraftb0ss lost connection: Disconnected
+[17:31:18] [Server thread/INFO]: m1necraftb0ss left the game
+[17:31:20] [User Authenticator #26/INFO]: UUID of player m1necraftb0ss is 4ae313c3-9e1c-48d8-8abd-f2f3b144c810
+[17:31:21] [Server thread/INFO]: [Foundation] m1necraftb0ss joined the game
+[17:31:21] [Server thread/INFO]: m1necraftb0ss[/86.2.19.66:59010] logged in with entity id 79953 at ([world]-2032.9108214594614, 93.0, -71.70285072826988)
+[17:31:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5050ms or 101 ticks behind
+[17:32:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5017ms or 100 ticks behind
+[17:33:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5087ms or 101 ticks behind
+[17:33:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5170ms or 103 ticks behind
+[17:34:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5090ms or 101 ticks behind
+[17:35:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5034ms or 100 ticks behind
+[17:35:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[17:36:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[17:37:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6113ms or 122 ticks behind
+[17:37:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5455ms or 109 ticks behind
+[17:38:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5048ms or 100 ticks behind
+[17:39:05] [Server thread/INFO]: harvey298 lost connection: Sent too many packets
+[17:39:05] [Server thread/INFO]: harvey298 left the game
+[17:39:08] [User Authenticator #27/INFO]: UUID of player harvey298 is c59ece5e-0b76-43b8-bac4-24ea927d9232
+[17:39:09] [Server thread/INFO]: [Foundation] harvey298 joined the game
+[17:39:09] [Server thread/INFO]: harvey298[/90.246.196.12:55220] logged in with entity id 83280 at ([world]-1822.6744764605342, 55.9375, -312.45242677459163)
+[17:39:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5045ms or 100 ticks behind
+[17:40:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[17:40:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5066ms or 101 ticks behind
+[17:41:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5190ms or 103 ticks behind
+[17:41:47] [Server thread/INFO]: harvey298 lost connection: Disconnected
+[17:41:48] [Server thread/INFO]: harvey298 left the game
+[17:42:34] [User Authenticator #28/INFO]: UUID of player harvey298 is c59ece5e-0b76-43b8-bac4-24ea927d9232
+[17:42:35] [Server thread/INFO]: [Foundation] harvey298 joined the game
+[17:42:35] [Server thread/INFO]: harvey298[/90.246.196.12:55230] logged in with entity id 84711 at ([world]-1843.2829320692747, 56.0, -315.98220697216556)
+[17:43:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5051ms or 101 ticks behind
+[17:43:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5031ms or 100 ticks behind
+[17:44:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5068ms or 101 ticks behind
+[17:45:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5716ms or 114 ticks behind
+[17:45:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5525ms or 110 ticks behind
+[17:46:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5316ms or 106 ticks behind
+[17:47:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5466ms or 109 ticks behind
+[17:47:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5046ms or 100 ticks behind
+[17:48:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5048ms or 100 ticks behind
+[17:49:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5030ms or 100 ticks behind
+[17:50:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5193ms or 103 ticks behind
+[17:50:20] [Server thread/WARN]: AR1THM3T1C moved too quickly! -10.21143471342043,0.0,-0.2426017778607843
+[17:50:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8967ms or 179 ticks behind
+[17:51:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5360ms or 107 ticks behind
+[17:51:30] [Server thread/WARN]: m1necraftb0ss moved too quickly! 25.06316598903436,-0.3245612398704907,-13.387671157531713
+[17:51:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6615ms or 132 ticks behind
+[17:52:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5060ms or 101 ticks behind
+[17:53:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[17:54:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5178ms or 103 ticks behind
+[17:55:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5357ms or 107 ticks behind
+[17:56:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5050ms or 101 ticks behind
+[17:57:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
+[17:57:25] [Server thread/INFO]: 8_Bit_Detron lost connection: Disconnected
+[17:57:25] [Server thread/INFO]: 8_Bit_Detron left the game
+[17:57:28] [Server thread/INFO]: AR1THM3T1C lost connection: Disconnected
+[17:57:28] [Server thread/INFO]: AR1THM3T1C left the game
+[17:57:30] [User Authenticator #29/INFO]: UUID of player 8_Bit_Detron is 0e732ab4-5071-4feb-99cf-7976982ca5c5
+[17:57:30] [Server thread/INFO]: [Foundation] 8_Bit_Detron joined the game
+[17:57:30] [Server thread/INFO]: 8_Bit_Detron[/94.5.221.128:51467] logged in with entity id 91723 at ([world]-2010.0010354773974, 90.02442408821369, -50.82291260300074)
+[17:57:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[17:58:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5143ms or 102 ticks behind
+[18:00:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5712ms or 114 ticks behind
+[18:01:29] [Server thread/INFO]: harvey298 lost connection: Disconnected
+[18:01:30] [Server thread/INFO]: harvey298 left the game
+[18:01:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
+[18:03:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[18:04:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5043ms or 100 ticks behind
+[18:11:48] [Server thread/INFO]: 8_Bit_Detron lost connection: Disconnected
+[18:11:48] [Server thread/INFO]: 8_Bit_Detron left the game
+[18:13:23] [User Authenticator #30/INFO]: UUID of player 8_Bit_Detron is 0e732ab4-5071-4feb-99cf-7976982ca5c5
+[18:13:23] [Server thread/INFO]: [Foundation] 8_Bit_Detron joined the game
+[18:13:23] [Server thread/INFO]: 8_Bit_Detron[/94.5.221.128:50775] logged in with entity id 97386 at ([world]-1751.2950315898145, 68.0, -244.23750001192093)
+[18:20:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5045ms or 100 ticks behind
+[18:22:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9683ms or 193 ticks behind
+[18:25:44] [Async Chat Thread - #11/INFO]: <m1necraftb0ss> gamer
+[18:26:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5362ms or 107 ticks behind
+[18:26:24] [Server thread/WARN]: m1necraftb0ss moved too quickly! 14.679050114110169,0.7967356006687112,9.133401985923733
+[18:28:39] [User Authenticator #31/INFO]: UUID of player AR1THM3T1C is 3eef9511-bee5-4ce1-9f0e-3c7665e562d7
+[18:28:40] [Server thread/INFO]: [Foundation] AR1THM3T1C joined the game
+[18:28:40] [Server thread/INFO]: AR1THM3T1C[/86.150.75.184:51459] logged in with entity id 102442 at ([world]-1784.5317745568761, -10.0, -378.50350486945797)
+[18:36:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5076ms or 101 ticks behind
+[18:36:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5545ms or 110 ticks behind
+[18:37:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[18:37:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5843ms or 116 ticks behind
+[18:50:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5307ms or 106 ticks behind
+[19:02:27] [User Authenticator #32/INFO]: UUID of player harvey298 is c59ece5e-0b76-43b8-bac4-24ea927d9232
+[19:02:28] [Server thread/INFO]: [Foundation] harvey298 joined the game
+[19:02:28] [Server thread/INFO]: harvey298[/90.246.196.12:55236] logged in with entity id 114619 at ([world]-1814.416149644026, 55.9375, -314.6783617570778)
+[19:02:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[19:03:10] [Server thread/INFO]: harvey298 lost connection: Disconnected
+[19:03:10] [Server thread/INFO]: harvey298 left the game
+[19:03:17] [Server thread/INFO]: AR1THM3T1C lost connection: Disconnected
+[19:03:17] [Server thread/INFO]: AR1THM3T1C left the game
+[19:04:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5049ms or 100 ticks behind
+[19:05:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
+[19:05:21] [Server thread/INFO]: 8_Bit_Detron lost connection: Disconnected
+[19:05:21] [Server thread/INFO]: 8_Bit_Detron left the game
+[19:40:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7179ms or 143 ticks behind
+[19:43:55] [Server thread/INFO]: m1necraftb0ss lost connection: Disconnected
+[19:43:55] [Server thread/INFO]: m1necraftb0ss left the game
+[19:44:29] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1522 (MC: 1.18.1) ---
+[19:44:29] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[19:44:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:44:29] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[19:44:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:44:29] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[19:44:29] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[19:44:29] [Paper Watchdog Thread/ERROR]: 	Stack:
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ChunkMap.f(ChunkMap.java:1663)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.helper.v118.MapChunkCache118.loadChunk(MapChunkCache118.java:76)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.readChunks(GenericMapChunkCache.java:738)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.common.chunk.GenericMapChunkCache.loadChunks(GenericMapChunkCache.java:701)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:529)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		Dynmap.jar//org.dynmap.bukkit.DynmapPlugin$BukkitServer$6.call(DynmapPlugin.java:516)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftFuture.run(CraftFuture.java:88)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1574)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:519)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1497)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1285)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4018/0x298db8c8.run(Unknown Source)
+[19:44:29] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[19:44:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:44:29] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[19:44:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[19:44:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10136ms or 202 ticks behind
+[21:38:26] [User Authenticator #33/INFO]: UUID of player garretthoward is 70f9253d-fc20-4a6a-b15e-ffe9033b257b
+[21:38:27] [Server thread/INFO]: [Viola] garretthoward joined the game
+[21:38:27] [Server thread/INFO]: garretthoward[/99.22.39.79:33758] logged in with entity id 123796 at ([world]57.99649314567688, 63.0, -69.13811460689357)
+[21:39:01] [Server thread/INFO]: garretthoward lost connection: Disconnected
+[21:39:01] [Server thread/INFO]: garretthoward left the game
+[21:51:04] [Server thread/INFO]: Stopping server
+[21:51:05] [Server thread/INFO]: Saving players
+[21:51:05] [Server thread/INFO]: Saving worlds
+[21:51:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:51:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:51:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:51:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:51:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:51:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:51:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:51:06] [Server thread/INFO]: Flushing Chunk IO
+[21:51:06] [Server thread/INFO]: Closing Thread Pool
+[21:51:06] [Server thread/INFO]: Closing Server

@@ -1,0 +1,13 @@
+default:
+  description: the bois
+  default: true
+  children:
+    coreprotect.inspect: true
+    coreprotect.lookup: true
+    voice.list: true
+    bukkit.command.tps: true
+    bukkit.command.tpsbar: true
+    bukkit.command.mspt: true
+    pl3xmap.command.show: false
+    pl3xmap.command.hide: false
+    pl3xmap.signs.admin: true

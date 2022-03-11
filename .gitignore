@@ -1,0 +1,11 @@
+# Purpur server loader
+server.jar
+
+# Server .jar cache
+cache/
+
+# Plugins
+plugins/*
+
+# Dynmap
+plugins/dynmap/*
