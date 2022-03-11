@@ -8,4 +8,4 @@ cache/
 plugins/*
 
 # Dynmap
-plugins/dynmap/*
+plugins/dynmap/web/
