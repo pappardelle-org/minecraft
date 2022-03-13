@@ -5,7 +5,10 @@ server.jar
 cache/
 
 # Plugins
-plugins/*
+plugins/*.jar
 
 # Dynmap
 plugins/dynmap/web/
+
+# CoreProtect DB
+plugins/CoreProtect/database.db
